@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+		{
+			"label": "Cypress Run Tests",
+			"type": "shell",
+			"command": "./node_modules/.bin/cypress.cmd run",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Cypress Open",
+			"type": "shell",
+			"command": "./node_modules/.bin/cypress.cmd open",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}		
+	]
+}

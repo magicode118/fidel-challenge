@@ -1,0 +1,22 @@
+{
+  "name": "fidel-challenge",
+  "version": "1.0.0",
+  "description": "Fidel challenge application",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "npm",
+    "cypress",
+    "fidel",
+    "e2e",
+    "testing"
+  ],
+  "author": "Glenn Gatt",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.6.0"
+  }
+}
